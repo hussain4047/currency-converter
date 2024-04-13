@@ -13,13 +13,13 @@ const currency: any = {
 let user_answer: any = await inquirer.prompt([
     {
         name: 'from',
-        message: "Enter From Currency:",
+        message: "Select currency you want to convert:",
         type: "list",
         choices: ["USD", "EUR", "GBP", "INR", "PKR"]
     },
     {
         name: 'to',
-        message: "Enter From Currency:",
+        message: "Select currency you want to be converted in:",
         type: "list",
         choices: ["USD", "EUR", "GBP", "INR", "PKR"]
     },

@@ -1,6 +1,6 @@
 {
   "name": "@hussain4047/currency-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple currency-converter CLI application.",
   "main": "index.js",
   "type": "module",
